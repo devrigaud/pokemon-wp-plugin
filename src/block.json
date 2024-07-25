@@ -1,0 +1,47 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/pokemon",
+	"version": "0.1.0",
+	"title": "Pokemon",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Display a card of your favorite Pokemon.",
+	"example": {},
+	"attributes": {
+		"name": {
+			"type": "string",
+			"default": "Pikachu"
+		},
+		"image": {
+			"type": "string",
+			"default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+		},
+		"height": {
+			"type": "number",
+			"default": 4
+		},
+		"weight": {
+			"type": "number",
+			"default": 60
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": true,
+		"color": {
+			"background": true,
+			"text": true
+		},
+		"spacing": {
+			"padding": true,
+			"margin": true
+		}
+	},
+	"textdomain": "pokemon",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js"
+}

@@ -1,0 +1,43 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-pokemon {
+	width: 300px;
+	max-width: 100%;
+	line-height: 1.4;
+	border-radius: 5px;
+	min-height: 394px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #efeff0;
+	h2,
+	p,
+	img {
+		margin: 0;
+	}
+	img {
+		background-color: #00000012;
+		width: 100%;
+		border-radius: 5px;
+		aspect-ratio: 1 / 1;
+		object-fit: contain;
+	}
+	h2,
+	p {
+		color: #697074;
+	}
+	h2 {
+		margin: 10px 0 5px;
+	}
+	.error,
+	.loading {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		height: 100%;
+	}
+}

@@ -1,0 +1,46 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-pokemon {
+  width: 300px;
+  max-width: 100%;
+  line-height: 1.4;
+  border-radius: 5px;
+  min-height: 394px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #efeff0;
+}
+.wp-block-create-block-pokemon h2,
+.wp-block-create-block-pokemon p,
+.wp-block-create-block-pokemon img {
+  margin: 0;
+}
+.wp-block-create-block-pokemon img {
+  background-color: rgba(0, 0, 0, 0.0705882353);
+  width: 100%;
+  border-radius: 5px;
+  aspect-ratio: 1/1;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.wp-block-create-block-pokemon h2,
+.wp-block-create-block-pokemon p {
+  color: #697074;
+}
+.wp-block-create-block-pokemon h2 {
+  margin: 10px 0 5px;
+}
+.wp-block-create-block-pokemon .error,
+.wp-block-create-block-pokemon .loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
